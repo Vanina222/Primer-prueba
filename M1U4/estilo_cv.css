@@ -1,0 +1,20 @@
+p {
+    color: #5952be; /*comentario*/
+    font-size:25px;
+}
+
+.destacado{
+    color: #d58f1e;
+}
+
+.contacto{
+    font-size:50px;
+    color: #cc1ed5;
+}
+
+.foto {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    transform: translate3d(70%, -50%, 0);    
+    margin: 300px; float: right; width: 350px; }
