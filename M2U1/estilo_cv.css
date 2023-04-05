@@ -1,0 +1,46 @@
+p {
+    color: #5952be; /*comentario*/
+    font-size:25px;
+}
+
+.destacado{
+    color: #d58f1e;
+}
+
+.contacto{
+    font-size:50px;
+    color: #cc1ed5;
+}
+
+.foto {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    transform: translate3d(70%, -50%, 0);    
+    margin: 300px; float: right; width: 350px; 
+}
+
+.css1{
+    background: rgb(199,238,183);
+background: radial-gradient(circle, rgba(199,238,183,1) 0%, rgba(107,195,55,1) 55%, rgba(255,183,0,0.5327380952380952) 100%);
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    padding: 80px;
+    box-shadow: 20px 20px 30px rgb(236, 172, 36);
+    border-radius: 10% 20%;
+}
+
+.colum{
+    column-count: 2;
+}
+
+div p{
+    margin: 0;
+}
+
+h2{
+    font-family: 'Kalam', cursive;
+    font-weight: 400;
+    font-size:80px;
+}
