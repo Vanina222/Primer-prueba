@@ -1,0 +1,16 @@
+.contenedor {
+  background-color: blue;
+  display: inline-flex;
+  /* Cambiar el de arriba por el de abajo... cambia la caja contenedora */
+  /* display: flex; */
+}
+
+.item {
+  background-color: #ccc;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  font-size: 30px;
+}
+
+/* https://flexboxfroggy.com/#es */
