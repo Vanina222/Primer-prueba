@@ -1,0 +1,97 @@
+/* Primer ejercicio */
+#contenedor1 {
+  border: 1px solid #0f0c0c;
+  width: 600px;
+  height: 600px;
+  position: relative;
+  color: aliceblue;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.item1 {
+  font-size: 20px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center; /* eje x*/
+  align-items: center; /* eje Y*/
+}
+
+#contenedor1 :first-child {
+  background-color: #f80707;
+  float: right;
+}
+
+#contenedor1 :nth-child(2) {
+  background-color: #5112e3;
+  float: right;
+}
+
+#contenedor1 :last-child {
+  background-color: #0fc01e;
+  float: right;
+}
+
+/* Segundo ejercicio */
+#contenedor2 {
+  border: 1px solid #0f0c0c;
+  width: 600px;
+  height: 600px;
+  position: relative;
+  display: flex;
+  color: aliceblue;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.item2 {
+  font-size: 20px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center; /* eje x*/
+  align-items: center; /* eje Y*/
+}
+
+#contenedor2 :first-child {
+  background-color: #f80707;
+}
+
+#contenedor2 :nth-child(2) {
+  background-color: #5112e3;
+}
+
+#contenedor2 :last-child {
+  background-color: #0fc01e;
+}
+
+/* Tercer ejercicio */
+#contenedor3 {
+  border: 1px solid #0f0c0c;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item3 {
+  font-size: 20px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center; /* eje x*/
+  align-items: center; /* eje Y*/
+}
+
+#contenedor3 :first-child {
+  background-color: #f80707;
+}
+
+#contenedor3 :nth-child(2) {
+  background-color: #5112e3;
+}
+
+#contenedor3 :last-child {
+  background-color: #0fc01e;
+}
