@@ -1,0 +1,19 @@
+h2 {
+  background-color: darksalmon;
+  margin-left: 15px;
+  padding-left: 15px;
+}
+
+.row > .col,
+.row > [class*="col-"] {
+  margin-left: 15px;
+  padding: 0.7rem;
+  background-color: aquamarine;
+  border: 1px solid cadetblue;
+}
+
+div {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
