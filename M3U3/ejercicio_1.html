@@ -1,0 +1,45 @@
+<!-- Crear el código que dada una distancia determine el medio de transporte 
+    apropiado de acuerdo a las siguientes reglas:
+
+0 a 1000 metros = pie
+
+1000 a 10000 metros = bicicleta
+
+10000 a 30000 metros = colectivo
+
+30000 a 100000 metros = auto
+
++100000 = avion
+ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+  </head>
+
+  <body>
+    <script>
+      const num1 = parseInt(
+        prompt("Ingrese la distancia que debe recorrer:", "")
+      );
+
+      if (num1 >= 100000) {
+        document.write(`La distancia de ${num1} mts. debe recorrerce en AVIÓN`);
+      } else if (num1 >= 30000) {
+        document.write(`La distancia de ${num1} mts. debe recorrerce en AUTO`);
+      } else if (num1 >= 10000) {
+        document.write(
+          `La distancia de ${num1} mts. debe recorrerce en COLECTIVO`
+        );
+      } else if (num1 >= 1000) {
+        document.write(
+          `La distancia de ${num1} mts. debe recorrerce en BICICLETA`
+        );
+      } else {
+        document.write(`La distancia de ${num1} mts. debe recorrerce a PIE`);
+      }
+    </script>
+  </body>
+</html>

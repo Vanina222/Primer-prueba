@@ -1,0 +1,26 @@
+<!-- Crear el código que reciba como parámetro un array de números y devuelva el mayor. -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+  </head>
+
+  <body>
+    <script>
+      var numeros = new Array();
+      const cantidad = prompt(`Ingrese el número de cifras que desea comparar`);
+      numeros.length = cantidad;
+
+      for (let i = 0; i < numeros.length; i++) {
+        let j = i + 1;
+        numeros[i] = prompt(`Ingrese el ${j} ° número`);
+      }
+
+      let mayor = Math.max(...numeros);
+
+      document.write(`Entre los números ${numeros} el mayor es: ${mayor}`);
+    </script>
+  </body>
+</html>
