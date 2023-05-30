@@ -1,0 +1,41 @@
+.contenedor {
+  border: 1px solid #0f0c0c;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  background-color: bisque;
+  display: flex;
+  gap: 20px;
+}
+
+.item {
+  font-size: 20px;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contenedor :first-child {
+  background-color: #f80707;
+}
+
+.contenedor :nth-child(2) {
+  background-color: #5112e3;
+}
+
+.contenedor :last-child {
+  background-color: #0fc01e;
+}
+
+body .item {
+  background-color: yellow;
+}
