@@ -1,12 +1,11 @@
 import React from "react";
-import "../styles/ContactoPage.css";
 
 const ContactoPage = (props) => {
   return (
-    <main className="contacto">
+    <main className="holder Contacto">
       <div>
         <h2>Contacto Rápido</h2>
-        <form action="" method="" className="formulario">
+        <form action="" method="" classNema="formulario">
           <p>
             <label for="nombre">Nombre</label>
             <input type="text" name="" />
@@ -28,9 +27,11 @@ const ContactoPage = (props) => {
           </p>
         </form>
       </div>
-      <div className="datos">
+      <div>
         <h2>Otras vías de comunicación.</h2>
-        <p>También puedes contactarte a travéz de: </p>
+        <p>
+          También puede contactarse con nosotros usasndo los siguientes medios
+        </p>
         <ul>
           <li>Teléfono: 02241 481 470/562 </li>
           <li>Whatsapp: 2241 471 869</li>

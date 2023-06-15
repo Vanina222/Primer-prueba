@@ -1,0 +1,32 @@
+header {
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+  background: rgb(247, 243, 245);
+  background: linear-gradient(
+    90deg,
+    rgba(247, 243, 245, 1) 0%,
+    rgba(241, 152, 158, 1) 10%,
+    rgba(166, 16, 11, 1) 100%
+  );
+  color: #f5f6f7;
+}
+
+.holder {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.holder img {
+  display: block;
+  margin: auto;
+  width: 150px;
+}
+
+.nombre-empresa {
+  font-size: 45px;
+}
+
+.slogan {
+  justify-content: right;
+}
