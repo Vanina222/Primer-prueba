@@ -1,0 +1,44 @@
+.container {
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  width: 80%;
+}
+
+.imagen-personal-1 {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1.4);
+  max-width: 300px;
+}
+
+.row {
+  display: flex;
+  gap: 24px;
+}
+
+p {
+  align-items: center;
+  padding: 20px;
+}
+
+.inicio {
+  padding-top: 5px;
+}
+
+@media (min-width: 768px) {
+  .inicio {
+    display: flex;
+    align-items: center;
+  }
+
+  .col-6 {
+    flex: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  .inicio,
+  .dos {
+    flex-direction: column;
+    align-items: center;
+  }
+}

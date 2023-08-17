@@ -1,0 +1,25 @@
+.navegador ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: red;
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+a:hover {
+  background-color: lightgray;
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  .navegador ul {
+    display: block;
+    list-style: none;
+    padding: 0;
+  }
+
+  .navegador li {
+    margin-bottom: 10px;
+  }
+}
